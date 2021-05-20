@@ -4,7 +4,7 @@
   "description": "FEConf2020 Frontend TDD로 개발하기 예제.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --mode=development",
     "test": "jest",
     "watch": "jest --watchAll",
     "lint": "eslint --fix --ext js,jsx ."

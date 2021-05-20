@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 
 import ListContainer from "./ListContainer";
+import InputSample from "./InputSample";
+import UserList from "./UserList";
 
 import { setTasks } from "./actions";
 
@@ -18,6 +20,8 @@ export default function App() {
     <div>
       <h1>To-do</h1>
       <ListContainer />
+      <InputSample />
+      <UserList />
     </div>
   );
 }
